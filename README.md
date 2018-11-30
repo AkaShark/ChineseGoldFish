@@ -1,6 +1,7 @@
 # Chinese goldfish --iOSApp
 [PromoVideo](https://www.youtube.com/watch?v=A5C_qSEYK3g&feature=youtu.be)
 
+[PromoVideoInChinese](https://www.youtube.com/watch?v=lUtpGuab4z4)
 
  
 AppName | TeamName | Short Description | Licence | Country | Author |
