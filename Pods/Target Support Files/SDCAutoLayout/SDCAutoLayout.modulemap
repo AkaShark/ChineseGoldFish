@@ -1,0 +1,6 @@
+framework module SDCAutoLayout {
+  umbrella header "SDCAutoLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

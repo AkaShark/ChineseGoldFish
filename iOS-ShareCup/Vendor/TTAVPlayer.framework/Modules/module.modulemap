@@ -1,0 +1,6 @@
+framework module TTAVPlayer {
+  umbrella header "TTAVPlayer.h"
+
+  export *
+  module * { export * }
+}

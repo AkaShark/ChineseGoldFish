@@ -1,0 +1,6 @@
+framework module BHBPopView {
+  umbrella header "BHBPopView-umbrella.h"
+
+  export *
+  module * { export * }
+}

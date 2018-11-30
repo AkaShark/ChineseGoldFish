@@ -1,0 +1,133 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BearSkill (0.1.1)
+  - BHBPopView (1.2.0)
+  - DKNightVersion (2.4.3):
+    - DKNightVersion/Core (= 2.4.3)
+    - DKNightVersion/CoreAnimation (= 2.4.3)
+    - DKNightVersion/UIKit (= 2.4.3)
+  - DKNightVersion/Core (2.4.3):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.3)
+    - DKNightVersion/Core/extobjc (= 2.4.3)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.3)
+  - DKNightVersion/Core/extobjc (2.4.3)
+  - DKNightVersion/CoreAnimation (2.4.3):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.4.3):
+    - DKNightVersion/Core
+  - HappyDNS (0.3.14)
+  - IQKeyboardManager (6.1.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.6)
+  - mob_smssdk (3.2.1):
+    - MOBFoundation
+  - MOBFoundation (3.1.8)
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - RBBAnimation (0.4.0)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - RongCloudIM/IMKit (2.8.32):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.32)
+  - SDCAlertView (2.5.2):
+    - RBBAnimation (~> 0.3)
+    - SDCAutoLayout (~> 2.0)
+  - SDCAutoLayout (2.0.3)
+  - SnapKit (4.0.0)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - BearSkill (= 0.1.1)
+  - BHBPopView
+  - DKNightVersion
+  - IQKeyboardManager
+  - Masonry (= 1.1.0)
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - mob_smssdk
+  - Qiniu
+  - ReactiveCocoa (= 2.3.1)
+  - RongCloudIM/IMKit (~> 2.8.3)
+  - SDCAlertView (= 2.5.2)
+  - SnapKit (~> 4.0.0)
+  - YTKNetwork
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BearSkill
+    - BHBPopView
+    - DKNightVersion
+    - HappyDNS
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - mob_smssdk
+    - MOBFoundation
+    - Qiniu
+    - RBBAnimation
+    - ReactiveCocoa
+    - RongCloudIM
+    - SDCAlertView
+    - SDCAutoLayout
+    - SnapKit
+    - YTKNetwork
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BearSkill: 35c7a9bd5d738820ac11bd2aa1c6c8ccb08672b8
+  BHBPopView: ea1c5a614e6bbbbc64c873d52fb1b5b60378cef0
+  DKNightVersion: eaa80cc4014b4bae7d4b535fd87ecc6a3c2767b3
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  mob_smssdk: edc462704cc07c6d245eee16c4c09ac4f4d53e61
+  MOBFoundation: 7f1e157be332576e4d45809a03bc733292c6ad8d
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  RBBAnimation: 4b2d66f6d993febce63cd564da934985313b9c59
+  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+  RongCloudIM: 48bfc2fcb8d7cae8ce1e19cb5fb26d6d90616375
+  SDCAlertView: f9706c18f456ea87909f8f199704cd28e582ff27
+  SDCAutoLayout: e6885bb39ab8e2ec2ff84d158f38035f025f7420
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: a642a25e954c53617aa69b18867ec1bbe38f19ae
+
+COCOAPODS: 1.6.0.beta.2

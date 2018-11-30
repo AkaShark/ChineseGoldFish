@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GFNewGudieViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="引导下一步" translatesAutoresizingMaskIntoConstraints="NO" id="XdE-1R-6q7">
+                    <rect key="frame" x="10" y="30" width="131" height="118"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="131" id="Oki-Wi-M7N"/>
+                        <constraint firstAttribute="height" constant="118" id="vgi-jh-6cy"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="引导上一步" translatesAutoresizingMaskIntoConstraints="NO" id="Re3-eb-jFd">
+                    <rect key="frame" x="234" y="30" width="131" height="118"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="131" id="0hX-rx-fXf"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="118" id="5TA-20-3y9"/>
+                        <constraint firstAttribute="height" constant="118" id="U0k-hu-8xW"/>
+                        <constraint firstAttribute="width" constant="131" id="Wqy-Ru-dkM"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="tvG-h0-2ul">
+                    <rect key="frame" x="121" y="314.5" width="133" height="58"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XdE-1R-6q7" firstAttribute="top" secondItem="gCP-FJ-C1X" secondAttribute="top" constant="10" id="CiD-NJ-ZCh"/>
+                <constraint firstItem="XdE-1R-6q7" firstAttribute="leading" secondItem="gCP-FJ-C1X" secondAttribute="leading" constant="10" id="J6X-1s-Zng"/>
+                <constraint firstItem="Re3-eb-jFd" firstAttribute="top" secondItem="gCP-FJ-C1X" secondAttribute="top" constant="10" id="Zfp-uQ-aNX"/>
+                <constraint firstItem="tvG-h0-2ul" firstAttribute="centerY" secondItem="gCP-FJ-C1X" secondAttribute="centerY" id="kTY-cc-SfS"/>
+                <constraint firstItem="gCP-FJ-C1X" firstAttribute="trailing" secondItem="Re3-eb-jFd" secondAttribute="trailing" constant="10" id="ya5-iW-eft"/>
+                <constraint firstItem="tvG-h0-2ul" firstAttribute="centerX" secondItem="gCP-FJ-C1X" secondAttribute="centerX" id="z6d-3H-nZf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="gCP-FJ-C1X"/>
+            <point key="canvasLocation" x="159" y="167"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="banner" width="133" height="58"/>
+        <image name="引导上一步" width="197" height="177"/>
+        <image name="引导下一步" width="175" height="241"/>
+    </resources>
+</document>
