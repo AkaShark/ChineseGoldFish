@@ -1,11 +1,9 @@
 # Chinese goldfish --iOSApp
 
-
-[TOC]
-###Project background
+### Project background
 In the history of human civilization, Chinese goldfish has accompanied human life for more than ten centuries. The earliest ornamental fish species in the history of world ornamental fish originated in China, which embodies the painstaking efforts and wisdom of our ancestors and has accompanied us for nearly a thousand years. Up to now, goldfish is still a very popular pet aquarium, goldfish varieties are very many, very ornamental value, and goldfish symbolizes the hall of gold and jade, more than often accompanied by us every year. For users who do not know about goldfish, we developed a Chinese goldfish App. App includes most of the information, the variety of goldfish to the public comprehensively introduced varieties of goldfish and Chinese history, the scientific classification of categorizing the goldfish varieties convenient user view, provides a photo identification technology, convenient for user to photo identification to get to know the goldfish goldfish, and provides the whole put together and fuzzy of quick search function to help users understand the goldfish.
 	
-###Introduction
+### Introduction
 （1）Introduction to prototype design
 
 Our products are mainly home page, search, add, fish circle and my functional modules. Home page and search are not required to register users to log in, add, fish circle and my module is the need for users to register through the mobile phone number login after the content can be viewed. In the home page we mainly have sideshow, photo recognition, goldfish history, goldfish classification, goldfish breeding, goldfish map, goldfish encyclopedia and goldfish information and other important functional modules. Sideslip includes my favorites, application Settings, feedback, information about us and ratings. Goldfish classification includes classical classification, traditional classification and all classification. Goldfish encyclopedia includes books, literature and online video. Goldfish information includes goldfish strains, fish farming equipment and prevention and treatment of fish diseases. The search module mainly includes search history and popular recommendations. After users register and log in, they can publish fish articles by adding buttons, record fish patting and feedback fish questions. In the fish circle module, users can communicate online with friends or fish experts. In my module users can set up personal information, view the collection of goldfish meitu and published fish text.
@@ -38,7 +36,7 @@ For goldfish classification, we mainly use the classical classification, traditi
   
   Run the work project in the simulator
   
-###Summary Of Work
+### Summary Of Work
 
   (1) Target User
   
@@ -50,7 +48,7 @@ The user group of Chinese goldfish App is very wide, including users who want to
   
 Our application "Chinese goldfish" used the "sharing cup" competition website directly download the data resources, from baidu encyclopedia to obtain goldfish history, goldfish breeding, goldfish strains, fish farming equipment, prevention and treatment of fish disease and other information. Get books and documents related to goldfish from wanfang database.
 
-###Description Of Work
+### Description Of Work
 
 At the top of the main interface through a simple picture rotator to display all kinds of Chinese goldfish maps. Below the main four functional modules are goldfish history, goldfish classification, goldfish breeding, goldfish map. Below the function module are the books, literature and online video related to goldfish, which can provide users with a more comprehensive understanding of Chinese goldfish. Click on the top left corner of the home page to open the lateral spreads menu, click on the top right corner of the home page to take photos of goldfish identification.
 
@@ -92,7 +90,7 @@ In the search interface can be the goldfish name of the full spelling and fuzzy 
 
 ![](https://ws1.sinaimg.cn/large/007fLiCegy1fxq2zrqs0qj30as0j640s.jpg)
 
-###Work Characteristics
+### Work Characteristics
 Goldfish goldfish originated in China, in the 12th century has begun jahwa heritage research, after a long cultivation, varieties constantly optimized.Goldfish can beautify the environment, is very popular among people, is the ornamental fish with Chinese characteristics.This product is image recognition, query, browse, and other functions, can help love users from more ways to get to know the goldfish.
 
 1、The data is accurate, science and all comes from the national aquatic germ plasm resources sharing service platform.
